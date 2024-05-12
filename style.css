@@ -47,6 +47,10 @@ body {
 	cursor: pointer;
 }
 
+#markAsread:hover {
+	color: var(--blue);
+}
+
 .activeState:hover {
 	color: var(--blue) !important;
 	cursor: pointer;
