@@ -47,16 +47,16 @@ body {
 	cursor: pointer;
 }
 
-#markAsRead:hover {
+#markAsRead:active {
 	color: var(--blue);
 }
 
-.activeState:hover {
+.activeState:active {
 	color: var(--blue) !important;
 	cursor: pointer;
 }
 
-.activeStateMessage:hover {
+.activeStateMessage:active {
 	background-color: var(--lightGrayishBlue1);
 	cursor: pointer;
 }
