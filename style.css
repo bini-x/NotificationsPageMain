@@ -45,11 +45,15 @@ body {
 
 #markAsRead {
 	cursor: pointer;
+	user-select: none;
 }
 
 #markAsRead:active {
 	color: var(--blue);
-	background-color: transparent;
+}
+
+.activeState {
+	user-select: none !important;
 }
 
 .activeState:active {
