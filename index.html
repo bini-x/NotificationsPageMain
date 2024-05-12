@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- displays site properly based on user's device -->
+
+	<link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+	<link rel="stylesheet" href="style.css">
+	<title>Frontend Mentor | Notifications page</title>
+</head>
+
+<body>
+
+	<div class="container">
+		<div class="head">
+			<div class="headLeft">
+				<p style="font-size: 22px; font-weight: 800; color: var(--veryDarkBlue)">Notifications</p>
+				<p class="notisNumber"></p>
+			</div>
+			<p style="opacity: 0.7;" id="markAsRead">Mark all as read</p>
+		</div>
+		<div class="notification">
+			<img src="assets/images/avatar-mark-webber.webp" alt="">
+			<div>
+				<b>Mark Webber</b> reacted to your recent post <span
+					style="color: var(--darkGrayishBlue); font-weight: 800;" class="activeState">My first tournament
+					today!" </span>
+				<img src="assets/images/icons8dot.png" alt="" width="10px" class="redDot">
+				<br>
+				<span style="opacity: 0.5;">1m ago</span>
+			</div>
+		</div>
+		<div class="notification">
+			<img src="assets/images/avatar-angela-gray.webp" alt="">
+			<div>
+				<span class="activeState"><b>Angela Gray</b></span> followed you
+				<img src="assets/images/icons8dot.png" alt="" width="10px" class="redDot">
+				<br>
+				<span style="opacity: 0.5;">5m ago</span>
+			</div>
+		</div>
+		<div class="notification">
+			<img src="assets/images/avatar-jacob-thompson.webp" alt="">
+			<div>
+				<b>Jacob Thompson</b> has joined your group <span class="activeState"
+					style="font-weight: 800; color: var(--blue);">Chess
+					Club</span>
+				<img src="assets/images/icons8dot.png" alt="" width="10px" class="redDot">
+				<br>
+				<span style="opacity: 0.5;">1day ago</span>
+			</div>
+		</div>
+		<div>
+			<div class="notification" style="background-color: transparent;">
+				<img src="assets/images/avatar-rizky-hasanuddin.webp" alt="" width="50px">
+				<div>
+					<b>Rizky Hasanuddin</b> sent you a private message <br>
+					<span style="opacity: 0.5;">5 days ago</span>
+				</div>
+			</div>
+			<div class="activeStateMessage"
+				style="padding: 20px; margin-left: 70px; border: 1px solid var(--lightGrayishBlue2); border-radius: 5px;">
+				Hello, thanks for setting up the Chess Club. I've been a member for a few weeks and I'm already
+				having lots of fun and improving my game.</div>
+		</div>
+		<div class="notification" style="display: flex; justify-content: space-between; background-color: transparent;">
+			<div style=" display: flex; align-items: center; gap: 10px">
+				<img src="assets/images/avatar-kimberly-smith.webp" alt="" width="50px">
+				<div>
+					<b>Kimberly Smith</b> commmented on your picture <br>
+					<span style="opacity: 0.5;">1week ago</span>
+				</div>
+			</div>
+			<img src="assets/images/image-chess.webp" alt="">
+		</div>
+		<div class="notification" style="background-color: transparent;">
+			<img src="assets/images/avatar-nathan-peterson.webp" alt="">
+			<div>
+				<b>Nathan Peterson</b> reacted to your recent post <span
+					style="color: var(--darkGrayishBlue);font-weight: 800;">5
+					end-game strategies to increase your win rate</span>
+				<br>
+				<span style="opacity: 0.5;">2 weeks ago</span>
+			</div>
+		</div>
+		<div class="notification" style="background-color: transparent;">
+			<img src="assets/images/avatar-anna-kim.webp" alt="">
+			<div>
+				<b>Anna Kim</b> left the group <span style="font-weight: 800; color: var(--blue);">Chess Club</span>
+				<br>
+				<span style="opacity: 0.5;">2 weeks ago</span>
+			</div>
+		</div>
+	</div>
+
+	<footer>
+		<div class="attribution">
+			<p>
+				Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+				Coded by <a href="https://github.com/bini-x" target="_blank">Bini</a>.
+			</p>
+		</div>
+	</footer>
+	<script src="script.js">
+
+	</script>
+</body>
+
+</html>

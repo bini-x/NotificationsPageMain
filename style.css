@@ -1,0 +1,99 @@
+:root {
+	--red: hsl(1, 90%, 64%);
+    --blue: hsl(219, 85%, 26%);
+	--white: hsl(0, 0%, 100%);
+	--veryLightGrayishBlue: hsl(210, 60%, 98%);
+	--lightGrayishBlue1: hsl(211, 68%, 94%);
+	--lightGrayishBlue2: hsl(205, 33%, 90%);
+	--grayishBlue: hsl(219, 14%, 63%);
+	--darkGrayishBlue: hsl(219, 12%, 42%);
+	--veryDarkBlue: hsl(224, 21%, 14%);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Plus Jakarta Sans;
+	font-size: 16px;
+}
+
+body {
+	background-color: var(--veryLightGrayishBlue);
+}
+
+.none {
+	display: none;
+}
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
+
+.container {
+	width: 800px;
+	margin: 30px auto;
+	padding: 10px 50px;
+	background-color: var(--white);
+	border-radius: 10px;
+}
+
+#markAsRead {
+	cursor: pointer;
+}
+
+.activeState:hover {
+	color: var(--blue) !important;
+	cursor: pointer;
+}
+
+.activeStateMessage:hover {
+	background-color: var(--lightGrayishBlue1);
+	cursor: pointer;
+}
+.head {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 20px auto;
+}
+
+.headLeft {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+
+
+.notisNumber {
+	background-color: var(--blue);
+	padding: 3px 10px;
+	color: white;
+	border-radius: 5px;
+}
+
+.notification {
+	background-color: var(--veryLightGrayishBlue);
+	border-radius: 5px;
+	padding: 10px;
+	margin: 10px auto;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.notification > img {
+	width: 50px;
+	height: 50px;
+}
+
+@media screen and (max-width: 431px) {
+  .container {
+	  width: 100%;
+  }
+}
