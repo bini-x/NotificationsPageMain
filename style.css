@@ -19,7 +19,7 @@
 }
 
 body {
-	background-color: red;
+	background-color: var(--veryLightGrayishBlue);
 }
 
 .none {
@@ -48,7 +48,7 @@ body {
 }
 
 #markAsread:hover {
-	color: var(--blue);
+	color: red;
 }
 
 .activeState:hover {
