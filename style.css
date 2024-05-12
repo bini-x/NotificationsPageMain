@@ -49,6 +49,7 @@ body {
 
 #markAsRead:active {
 	color: var(--blue);
+	background-color: transparent;
 }
 
 .activeState:active {
