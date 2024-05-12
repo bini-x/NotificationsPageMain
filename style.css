@@ -47,8 +47,8 @@ body {
 	cursor: pointer;
 }
 
-#markAsread:hover {
-	color: red;
+#markAsRead:hover {
+	color: var(--blue);
 }
 
 .activeState:hover {
